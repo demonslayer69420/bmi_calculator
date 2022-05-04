@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image:url('/images/poly.jpg');
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    color: #e6ffff;
+    overflow:hidden;
+    text-align: center;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(197, 215, 207);
+    padding: 20px;
+    margin:0;
+    opacity: 70%;
+  }
+  h3
+  {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:black;
+  }
+  
+  .container form {
+    margin: 20px;
+  }
+  
+  .container input {
+    width: 350px;
+    height: 15px;
+    font-size: 15px;
+    margin: 2px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .container button {
+    width:70px;
+    height: 30px;
+    background-color: steelblue;
+    margin: 3px;
+  }
+  
+  .container p {
+    margin: 100px;
+  }
+  
+  .message {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #ff9999
+  }
+  .success-message
+  {
+    font-size: 20px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+  }
+  .health
+  {
+      border: 2px solid pink;
+      height:200px;
+      width:600px;
+      position: relative;
+      left:25%;
+  }
+  .health , a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+a:hover,.health p
+{
+    color:white;
+}
+.health p
+{
+
+    margin:30px;
+}
