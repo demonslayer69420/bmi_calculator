@@ -2,8 +2,8 @@ from email.mime.text import MIMEText
 import smtplib
 
 def send_email(email, weight, average_weight, height, average_height, count, bmi_):
-    from_email="ishansharma904@gmail.com"
-    from_password="9589549669"
+    from_email="your_email"
+    from_password="your_password"
     to_email=email
     
     if bmi_<18.5:
